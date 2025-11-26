@@ -1,0 +1,27 @@
+.shield {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  background-image: url('/shield.png');
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.shield:hover {
+  transform: scale(1.05);
+}
+
+.spinning {
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.shield-container {
+  display: flex;
+  justify-content: center;
+}

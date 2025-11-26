@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0a0f14;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Neon text */
+.neon {
+  color: #00eaff;
+  text-shadow: 0 0 8px #00eaff, 0 0 15px #00aaff;
+}
+
+/* Cards */
+.card {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.1);
+}
+
+/* Expandable sections */
+.expand {
+  padding: 12px;
+  background: rgba(0, 255, 255, 0.15);
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.expand:hover {
+  background: rgba(0, 255, 255, 0.25);
+}
+
+.expand-content {
+  background: rgba(0, 255, 255, 0.1);
+  margin-top: 8px;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+/* Footer link styling */
+.footer-link {
+  color: #00eaff;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* Buy button */
+.buy-btn {
+  transition: 0.2s;
+}
+
+.buy-btn:hover {
+  transform: scale(1.05);
+}
